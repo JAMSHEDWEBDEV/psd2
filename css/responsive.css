@@ -1,0 +1,152 @@
+/*// X-Small devices (portrait phones, less than 576px)*/
+/*// No media query for `xs` since this is the default in Bootstrap*/
+
+@media (min-width: 320px) and (max-width: 575px){
+
+/*navigation part responsive code start*/
+
+.navbar-nav .nav-item .nav-link{
+	padding:0 20px;
+	text-align: center;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	background-color: whitesmoke;
+	color:indigo;
+}
+
+/*navigation part responsive code end*/
+
+/*service part responsive code start*/
+
+.icon1{
+	text-align: center;
+}
+.content{
+	text-align: center;
+}
+
+/*service part responsive code end*/
+
+/*contact part responsive code start*/
+
+.input_button input{
+	height: 40px;
+	width: 300px;
+	margin: 0 auto;
+}
+.input_button button{
+	margin: 20px 85px 0;
+}
+
+
+/*contact part responsive code end*/
+
+/*footer part responsive code start*/
+
+.footer_content{
+	text-align: center;
+}
+
+/*footer part responsive code end*/
+
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+/*navigation part responsive code start*/
+
+.navbar-nav .nav-item .nav-link{
+	padding:0 50px;
+	text-align: center;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	background-color:white;
+	color:black;
+}
+
+/*navigation part responsive code end*/
+
+/*service part responsive code start*/
+
+.icon1{
+	text-align: center;
+}
+.content{
+	text-align: center;
+}
+
+/*service part responsive code end*/
+
+/*contact part responsive code start*/
+
+
+.input_button button{
+	margin: 30px 180px 0;
+}
+/*contact part responsive code end*/
+
+/*footer part responsive code start*/
+
+.footer_content{
+	text-align: center;
+}
+
+/*footer part responsive code end*/
+
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+/*navigation part responsive code start*/
+
+.navbar-nav .nav-item .nav-link{
+	padding:0 70px;
+	text-align: center;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	background-color:black;
+	color:white;
+}
+
+/*navigation part responsive code end*/
+
+/*service part responsive code start*/
+
+.icon1{
+	font-size: 25px;
+}
+
+/*service part responsive code end*/
+
+
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+
+
+}
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+
+
+
+
+}
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+
+@media (min-width: 1400px) and (max-width: px) {...}

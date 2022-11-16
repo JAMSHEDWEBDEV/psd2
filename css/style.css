@@ -1,0 +1,197 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+nav{
+	background-color: #fcdb00;
+}
+.navbar-brand img{
+	margin-top: 30px;
+}
+.navbar-nav .nav-item .nav-link{
+	color: black;
+	font-family: PTSans;
+	font-weight: bold;
+	font-size: 22px;
+	padding: 10px 40px;
+	margin-top: 30px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	color: white;
+}
+/*banner part css start*/
+
+#banner{
+	background-color:#fcdb00;
+	padding-top: 100px;
+}
+.carousel-indicators [data-bs-target] {
+	
+	width: 10px;
+	height: 10px;
+	border: 1px solid white;
+	border-radius: 50%;
+	background-color: white;
+	
+}
+.carousel-inner .carousel-item img{
+	padding-bottom: 60px;
+}
+
+
+/*banner part css end*/
+
+/*service part css start*/
+
+.service_heading{
+	text-align: center;
+	margin: 116px 0 92px;
+}
+.service_heading h1{
+	font-family: PTSans;
+	font-size: 32px;
+	font-weight: bold;
+	color: black;
+}
+.service_heading p{
+	font-family: PTSans;
+	font-size: 20px;
+	font-weight:400;
+	color:#313841;
+	margin: 27px 0 90px;
+}
+.icon1{
+	font-size: 40px;
+}
+.icon1 i{
+	color: black;
+}
+.content h1{
+	font-family: PTSans;
+	font-size: 22px;
+	font-weight:400;
+	color: black;
+}
+.content p{
+	font-family: PTSans;
+	font-size: 16px;
+	font-weight:400;
+	color:#898989;
+	margin-bottom: 80px;
+}
+
+
+/*service part css end*/
+
+/*contact part css start*/
+
+#contact{
+	background-color: #010101;
+}
+
+.contact_heading{
+	text-align: center;
+	margin-top: 94px;
+}
+.contact_heading h4{
+    font-family: PTSans;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fcdb00;
+}
+.contact_heading p{
+	font-family: PTSans;
+	font-size: 20px;
+	font-weight:400;
+	color:#838383;
+	margin-bottom: 40px;
+}
+.input_button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 77px;
+}
+.input_button input{
+	height: 40px;
+	width: 500px;
+	line-height: 50px;
+	margin-right: 20px;
+	border-radius: 8px;
+	border: none;
+	padding-left: 20px;
+	font-family: PTSans;
+    font-size:16px;
+    font-weight:400;
+
+}
+.input_button button{
+	height: 40px;
+	width: 130px;
+	line-height: 40px;
+	border-radius: 8px;
+	background-color:#fcdb00;
+	border: none;
+	font-family: PTSans;
+    font-size:16px;
+    font-weight: bold;
+    transition: all linear .4s;
+}
+.input_button button:hover{
+	background-color: white;
+	transition: all linear .4s;
+
+}
+.icon2{
+	text-align: center;
+	margin-bottom: 130px;
+}
+.icon2 i{
+	padding: 5px 8px;
+	font-size: 30px;
+	background-color:#fcdb00;
+	border-radius: 5px;
+	margin: 0 10px;
+	color: black;
+	transition: all linear .4s;
+}
+.icon2 i:hover{
+	background-color: white;
+	color:indigo;
+	transition: all linear .4s;
+}
+
+/*contact part css end*/
+
+/*footer part css start*/
+
+#footer{
+	background-color:#010101;
+}
+
+.footer_content{
+	margin: 0 0 50px;
+	color: white;
+	font-family: PTSans;
+    font-size:16px;
+    font-weight:400;
+}
+
+.footer_content p{
+	margin: 0;
+}
+.footer_content ul li a{
+	color: white;
+	font-family: PTSans;
+    font-size:16px;
+    font-weight:400;
+}
+
+/*footer part css end*/
